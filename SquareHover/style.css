@@ -1,0 +1,60 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    height:150px;
+    width: 150px;
+    border: black solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#circle{
+    border-radius: 100px;
+}
+#circle:hover{
+    background-color: rgb(5, 247, 126);
+}
+
+#diamond{
+    margin-top:40px;
+    rotate:45deg;
+    /* Height = Total Height And Width /root 2 */
+    height:110px;
+    width: 110px;
+    /* Translate MEans increase In X-axis  */
+    translate: 20px;
+}
+#diamond:hover{
+    background-color: blueviolet;
+}
+
+#square:hover{
+    background-color: #cc1818;
+}
+
+h1{
+    font-weight: lighter;
+}
+
+#diamond h1{
+    rotate: -45deg;
+}
